@@ -1,14 +1,7 @@
-# ML Pipeline Problem
+# luigi ML Pipeline 
 
-This question will test some basic skills in cleaning data and building a machine learning pipeline.
 
-The focus of this test is to evaluate:
-
- * Ability to quickly learn a new framework (luigi)
- * Ability to manipulate and process data (cleaning, processing, feature engineering)
- * Competency in software development
-
-This test does not focus on modelling accuracy, ability to use a fancy model,
+This code does not focus on modelling accuracy, ability to use a fancy model,
 or efficiency.  It is mainly about the mechanics of building a proper machine
 learning pipeline.
 
@@ -52,17 +45,6 @@ classifier and score using the model.  The pipeline should have these steps:
     * Use the trained model to predict the probability/score for each city the
       negative, neutral and positive sentiment.
     * Output a sorted list of cities by the predicted positive sentiment score to the output file.
-
-## Notes/Hints/Suggestions
-
- * We have provided a skeleton file to get you started named `pipeline.py`, and a
-   script `run.sh` that will execute this luigi pipeline.
- * You must use the `luigi` package.
- * You must use Python (any version is fine).
- * Feel free to use any Python packages.  We used `pandas`, `scikit-learn`, `numpy`
-   (as seen in the included requirements.txt).
- * Do not worry too much about run-time/memory efficiency.  So long as it runs
-   within 15 minutes, it should be fine.
 
 ## References
 
